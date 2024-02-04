@@ -84,5 +84,5 @@ jobs:
       - name: Publish Artifact
         uses: actions/upload-artifact@v2.2.4
         with:
-          name: Qt Android Build
+          name: MissaSinfonia Debug
           path: export/release/android/bin/app/build/outputs/apk/debug
